@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kakaw Galleon - Artisanal Chocolates</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: burlywood;
+            color: #fff;
+        }
+
+        .logo img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #8b5e3c;
+        }
+
+        .nav-link {
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #f2f2f2;
+            transform: scale(1.1);
+        }
+
+        .hero {
+            background-image: url(GIF.gif);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+        }
+
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            flex: 1;
+            max-width: 30%;
+            min-width: 250px;
+            padding: 20px;
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h2 {
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+
+        .card p {
+            font-size: 1em;
+            line-height: 1.6;
+            color: #444;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: burlywood;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .footer-logo img {
+            max-width: 100px;
+        }
+
+        .web-designer p {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo choco.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="#" class="nav-link">Portfolio</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div>
+            <h1>Welcome to Kakaw Galleon</h1>
+            <p>Artisanal Chocolates Crafted with Passion</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="main-content">
+            <div class="card">
+                <img src="choco 1.png" alt="Artisanal Chocolates">
+                <h2>Our Story</h2>
+                <p>Kakaw Galleon stands as a specialty chocolate business dedicated to crafting exceptional artisanal chocolates using locally sourced, premium ingredients. Our foundation stems from a deep appreciation for the rich cocoa history and culture of the Philippines, driving our commitment to sustainability and fair trade.</p>
+            </div>
+            <div class="card">
+                <img src="choco 3.png" alt="Sustainable Practices">
+                <h2>Our Mission</h2>
+                <p>Kakaw Galleon's mission extends beyond the creation of delectable treats. We invite you to experience our products, each a testament to our dedication to a more sustainable and equitable world. Whether you're a chocolate enthusiast seeking exquisite flavors or a conscious shopper eager to make a difference, our chocolates represent an opportunity to savor exceptional quality while contributing to meaningful change through your support.</p>
+            </div>
+            <div class="card">
+                <img src="choco 2.png" alt="Our Menu">
+                <h2>Our Menu</h2>
+                <p>Experience the exquisite world of Kakaw Galleon's menu, meticulously crafted to delight discerning palates. Delve into our handcrafted treasures, including signature percentage chocolate bars, exquisite bonbons, specialty chocolates, and our exclusive dragées collection. Each creation is a testament to our dedication to premium quality and the artistry of our master chocolatier, Isagani De Ocampo.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="logo choco.png" alt="Footer Logo">
+        </div>
+        <div class="web-designer">
+            <p>Designed by Marc Urbina</p>
+            <p>Email: 202311893@fit.edu.ph</p>
+        </div>
+    </footer>
+</body>
+
+</html>
